@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&family=Noto+Sans&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* @media only screen and (max-width:300px){
+    .main{
+        background-size: 120%;
+    }
+} */
+
+body{
+    background-color: black;
+
+}
+
+.main{
+    background-image: url(assests/Images/bg.jpg);
+    height: 95vh;
+    background-position: cover;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;    
+    position: relative;
+
+}
+.main .box{
+    background-color: black;
+    opacity: 0.69;
+    height: 95vh;
+    width: 100%;
+    background-position: cover;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: absolute;
+    top:0;
+}
+nav{
+    /* padding: 10px 10px 0px 10px; */
+    height: 45px;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div img{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    
+}
+.btn{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+    font-weight: 900;
+    border-radius: 4px;
+       
+}
+
+
+.content{
+    color: white;
+    position: relative;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    /* gap:23px; */
+
+}
+.content > :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.content > :nth-child(2){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.content > :nth-child(3){
+    font-size: 18px;
+    padding-top: 15px;
+    
+}
+.content >:nth-child(4){
+    font-size: 18px;
+    padding-top: 15px;    
+}
+
+.text{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.text input{
+    font-size: 14px;
+    padding: 10px 89px 10px 5px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+.text button{
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 15px;
+    font-weight: 900;
+
+}
+.line{
+    /* height: 10px;
+    width: 1300px;
+    background-color: rgb(67, 67, 67); */
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+.line .linebox{
+    background-color: black;
+    opacity: 0.79;
+ } 
+
+ .red{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+ }
+ .transparent{
+    background-color: rgba(23,23,23,0.3);
+    color: white;
+     
+ }
+.first{
+    display: flex;
+    color:white;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    width: 60vw;
+    height: 90vh;
+  }
+.ftext :nth-child(1){
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.ftext :nth-child(2){
+    font-weight: 900;
+    font-size: 20px;
+}
+.first img{
+    height: 300px;
+    width: 400px;
+    position: relative;
+}
+.video{
+    position: relative;
+}
+.first video{
+    position: absolute;
+    top:30px;
+    /* z-index: 10px; */
+    right: 0;
+    height: 275px;
+    width: 365px; 
+}
+.second{
+    display: flex;
+    color:white;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    width: 60vw;
+    height: 90vh;
+    /* position:relative; */
+}
+.stext :nth-child(1){
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.stext :nth-child(2){
+    font-weight: 900;
+    font-size: 20px;
+}
+.second img{
+    height: 55vh;
+    width: 30vw;
+}
+
+.anima{
+    height: 80px;
+    width: 266px;
+    background-color: black;
+    border:solid gray 2px;    
+    border-radius: 22px;
+    color:white;
+    display: flex;
+    gap:10px;
+    right: 20px;
+    /* position: absolute;
+    top: 0;
+    z-index: 10; */
+}
+.video > img{
+    position: relative;
+}
+.anima img{
+    height: 70px;
+    width: 55px;
+    padding-left: 10px;
+    padding-top: 5px;
+   }
+.down{
+    place-self: center;
+}
+ .down :nth-child(1){
+    font-weight: 900;
+}
+ .down :nth-child(2){
+    font-weight: 100;
+    color: blue;
+}
+.tvideo{
+    position: relative;
+    
+}
+.tvideo img{
+    position: relative;
+    height: 300px;
+    width: 450px;
+}
+.tvideo video{
+    position: absolute;   
+    height: 140px;
+    width: 600px;
+    left: 10px;
+    z-index: 10;
+}
+.head{
+    color: white;
+    font-size: 53px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 35px 0px 20px 0px;
+}
+
+.faqbox{
+    background-color: #2d2d2d;
+    padding: 25px;
+    color:white;
+    display: flex;
+    justify-content: space-between;max-width: 65vw;
+    margin: auto;
+    font-size: 27px;
+    font-weight: 500;
+    gap:10px;
+    margin-bottom: 10px ;
+    cursor: pointer;
+    transition: all 1s ease-out;
+    
+}
+.faqbox:hover{
+    background-color: rgb(83, 82, 82);
+
+}
+.faqbox svg{
+    fill: white;
+}
+.end{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+footer{
+    color:white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    color:white;
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    cursor: pointer;
+}
+.footer span{
+    margin:10px 0px 10px 10px;
+    cursor: pointer;
+    
+}
+.que{
+    margin: 50px 0px 30px 245px;
+}
+.footer-items a{
+    color:white;
+    font-weight: 100;
+}
+
